@@ -54,7 +54,7 @@ This example requests that many users to be queued for the creation of a Persona
 
 ### -NoWait
 
-Continues without the status being polled. Polling the action can slow it's progress if lots of user emails are specified.
+Continues without the status being polled. Polling the action can slow its progress if lots of user emails are specified.
 
 ```yaml
 Type: SwitchParameter
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 
 Specifies one or more user logins to be enqueued for the creation of a Personal Site. The Personal site is created by a Timer Job later. You can specify between 1 and 200 users.
 > [!NOTE]
-> If you are Pre-Provisioning OneDrive for Many Users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
+> If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
 
 ```yaml
 Type: String[]
